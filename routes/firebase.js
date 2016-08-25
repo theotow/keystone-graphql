@@ -5,7 +5,7 @@ try{
   firebase.initializeApp({
     databaseURL: process.env.DB_URL,
   	serviceAccount: {
-      projectId: process.env.DB_ID,
+      projectId: process.env.P_ID,
       clientEmail: process.env.C_EMAIL,
       privateKey: process.env.KEY
 		}
@@ -14,7 +14,7 @@ try{
   firebase.initializeApp({
 		databaseURL: process.env.DB_URL,
   	serviceAccount: {
-      projectId: process.env.DB_ID,
+      projectId: process.env.P_ID,
       clientEmail: process.env.C_EMAIL,
       privateKey: process.env.KEY
 		}
