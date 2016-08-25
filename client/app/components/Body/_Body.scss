@@ -1,0 +1,11 @@
+@import "../../scss/_variables";
+@import "../../scss/_fonts";
+
+
+.body{
+  background: $bg-color;
+  margin-top: 10px;
+  &__wrap{
+    padding: $space $space * 2;
+  }
+}

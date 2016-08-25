@@ -1,0 +1,70 @@
+@import "../../scss/variables";
+@import "../../scss/fonts";
+
+
+.topic{
+  background: $bg-color;
+  margin-top: 10px;
+  &--owned{
+    background-color: $bg-lightred;
+  }
+  &__wrap{
+  }
+  &__num{
+    min-width: 32px;
+    padding-left: 5px;
+    @extend %t2;
+  }
+  &__text{
+    @extend %t5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+    &-inner{
+      padding: 10px 15px;
+    }
+    &--open{
+      max-height: 100000px;
+      transition: max-height 1s ease-in;
+    }
+  }
+  &__heart{
+    background-image: url('../../assets/imgs/heart.svg');
+    width: 19px;
+    height: 16px;
+    cursor: pointer;
+    // background: red;
+    min-width: 37px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &--active{
+      background-image: url('../../assets/imgs/heart-active.svg');
+    }
+  }
+  &__title{
+    @extend %t2;
+    cursor: pointer;
+    flex: 1;
+    padding-left: 10px;
+  }
+  &__top{
+    display: flex;
+  }
+  &__points{
+    @extend %t3;
+    color: $color-black;
+    flex: 1;
+    padding-left: 10px;
+  }
+  &__timefrom{
+    @extend %t3;
+    flex: 1;
+    text-align: right;
+  }
+  &__bottom{
+    margin-top: 3px;
+    padding: 5px 5px 5px 0;
+    background: $color-light-grey;
+    display: flex;
+  }
+}

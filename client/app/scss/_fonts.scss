@@ -1,0 +1,60 @@
+/* _fonts.scss */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import "_variables";
+
+
+%h1{
+  font-family: $font-robo;
+  font-size: 36px;
+  color: $color-black;
+  line-height: 48px;
+}
+
+%h2, .h2{
+  font-family: $font-mont;
+  font-weight: 100;
+  font-size: 24px;
+  color: $color-black;
+  line-height: 29px;
+}
+
+%t1{
+  font-family: $font-mont;
+  font-size: 14px;
+  color: $color-red;
+  line-height: 24px;
+}
+
+%t2{
+  font-family: $font-mont;
+  font-weight: 100;
+  font-size: 23.65px;
+  color: $color-black;
+  line-height: 29px;
+}
+
+%t3{
+  font-family: $font-mont;
+  font-weight: 100;
+  font-size: 13.8px;
+  color: $color-grey;
+  line-height: 17px;
+}
+
+%t4{
+  font-family: $font-mont;
+  font-weight: 100;
+  font-size: 16px;
+  color: $color-white;
+  line-height: 19px;
+}
+
+%t5{
+  font-family: $font-robo;
+  font-size: 12px;
+  text-align: justify;
+  color: $color-black;
+  line-height: 14px;
+}

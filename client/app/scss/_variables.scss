@@ -1,0 +1,33 @@
+/* _variables.scss */
+
+// color
+$bg-color: #F8F8F8;
+$bg-lightred: #F5DCDC;
+$color-grey: #828282;
+$color-white: #FFFFFF;
+$color-light-grey: #EDEDED;
+$color-dark-grey: #5C5C5C;
+$color-red: #E53E3E;
+$color-black: #000000;
+
+// fonts
+$font-robo: 'Roboto Slab';
+$font-mont: 'Montserrat';
+
+// space
+$space: 25px;
+
+// grid
+$breakpoint-sm: '(min-width: 479px)';
+$breakpoint-md: '(min-width: 779px)';
+$breakpoint-lg: '(min-width: 1440px)';
+$container-width: 1000px;
+
+// basscss
+$border-radius: 0;
+$border-width: 0;
+$button-background-color: $color-red;
+$button-font-size: 16px;
+$button-line-height: 19px;
+$button-font-family: $font-mont;
+$button-font-weight: 200;

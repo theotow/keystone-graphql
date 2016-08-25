@@ -1,0 +1,23 @@
+{
+  "name": "fullstack-test",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Manuel Villing <manuel.villing@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/scss/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "basscss-sass": "~3.0.0",
+  }
+}

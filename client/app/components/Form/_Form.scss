@@ -1,0 +1,32 @@
+@import "../../scss/variables";
+@import "../../scss/grid";
+@import "../../scss/forms";
+@import "../../scss/fonts";
+@import "../../scss/btns";
+
+.form {
+  margin-top: 15px;
+  &__field {
+    @extend .field;
+    @extend %t4;
+    color: $color-dark-grey;
+    font-weight: 200;
+    box-sizing: border-box;
+    background: $color-light-grey;
+    height: 29px;
+    padding: 5px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    &--disabled{
+      opacity: 0.3;
+    }
+    &--area{
+      height: 100px;
+    }
+  }
+  &__btn {
+    @extend .btn;
+    @extend .btn-primary;
+  }
+}
