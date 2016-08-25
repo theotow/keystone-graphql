@@ -1,6 +1,6 @@
 // Simulate config options from your production environment by
 // customising the .env file in your project's root folder.
-process.chdir('/Users/manuel/Projects/keystone/');
+process.chdir(__dirname);
 require('babel-register');
 require('dotenv').config();
 

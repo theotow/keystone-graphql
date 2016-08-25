@@ -1,5 +1,5 @@
 import test from 'ava';
-var app = require('../keystone');
+var app = require('../keystone_withenv');
 var keystone = require('keystone');
 
 var Posts = require('../routes/posts').default;

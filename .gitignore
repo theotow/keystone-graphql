@@ -2,6 +2,8 @@
 logs
 *.log
 
+keystone_withenv.js
+
 # Runtime data
 pids
 *.pid
