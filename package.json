@@ -13,6 +13,7 @@
     "cloudinary": "^1.2.4",
     "dotenv": "^2.0.0",
     "express-handlebars": "^3.0.0",
+    "firebase": "^3.3.0",
     "graphql": "^0.6.2",
     "graphql-tools": "^0.6.4",
     "handlebars": "^4.0.5",
@@ -41,7 +42,9 @@
   "ava": {
     "concurrency": 5,
     "failFast": true,
-    "require": ["babel-register"],
+    "require": [
+      "babel-register"
+    ],
     "tap": false,
     "babel": "inherit"
   }
